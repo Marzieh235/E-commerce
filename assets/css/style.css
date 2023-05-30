@@ -1,0 +1,29 @@
+@import url('../css/_top-nav.css');
+
+*,
+body {
+    font-family: Vazirmatn, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+}
+
+li,
+ol,
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+p{
+    margin: 0;
+}
