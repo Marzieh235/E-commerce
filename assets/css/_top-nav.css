@@ -2,13 +2,15 @@
     background-color: #232f3e;
 }
 
-.custom-top-nav , .bg_top_nav p {
+.custom-top-nav,
+.bg_top_nav p {
     font-size: 14px;
 }
 
 .custom-top-nav a {
     padding: 10px;
 }
-/* .custom-top-nav .border-start{
-    border-color: #e9ecef!important;
-} */
+
+.custom-btn-font-size {
+    font-size: 14px !important;
+}
