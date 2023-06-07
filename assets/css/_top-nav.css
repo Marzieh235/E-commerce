@@ -11,6 +11,42 @@
     padding: 10px;
 }
 
+.category-custom {
+    position: absolute !important;
+    top: 7px !important;
+    left: -38px !important;
+    width: 186px !important;
+}
+
 .custom-btn-font-size {
     font-size: 14px !important;
+}
+
+.shop-font {
+    font-size: 15px !important;
+}
+
+.custom-dropdown-toggle::after {
+    vertical-align: 2px !important;
+}
+
+.basket {
+    position: absolute !important;
+    top: 7px !important;
+    left: -95px !important;
+    width: 230px !important;
+}
+
+.basket a img {
+    width: 60px;
+    height: 60px;
+}
+
+.basket a ul li {
+    font-size: 12px;
+}
+
+
+.btn-custom {
+    font-size: 10px;
 }
