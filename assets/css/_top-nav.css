@@ -1,4 +1,5 @@
 .bg_top_nav {
+    padding: 0 !important;
     background-color: #232f3e;
 }
 
@@ -49,4 +50,25 @@
 
 .btn-custom {
     font-size: 10px;
+}
+
+.custom-navbar-nav {
+    font-size: 14px;
+}
+
+.custom-navbar-nav .nav-item,
+.custom-navbar {
+    position: unset !important;
+}
+
+.custom-navbar-nav .nav-item .dropdown-menu {
+    border-radius: 0;
+    /* margin: 0 !important; */
+    top: 53px;
+    background-color: #232f3eed;
+}
+
+.custom-navbar-nav .nav-item .dropdown-menu .dropdown-item:focus,
+.dropdown-item:hover {
+    color: black !important;
 }
