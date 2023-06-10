@@ -27,14 +27,14 @@
     font-size: 15px !important;
 }
 
-.custom-dropdown-toggle::after {
+.dropdown-toggle::after {
     vertical-align: 2px !important;
 }
 
 .basket {
     position: absolute !important;
-    top: 7px !important;
-    left: -95px !important;
+    top: 0px !important;
+    left: -51px !important;
     width: 230px !important;
 }
 
@@ -62,11 +62,10 @@
 
 .custom-navbar-nav .nav-item .dropdown-menu {
     border-radius: 0;
-    top: 54px;
+    top: 64px;
 }
 
 .dropdown-img img {
-    width: 330px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -91,8 +90,52 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:991px){
-    .dropdown-img img{
-        display: none;
+.custom-form::placeholder {
+    font-size: 13px !important;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.hot {
+    color: rgb(255, 255, 7);
+    text-decoration: none;
+    animation: hot 1.25s infinite;
+}
+
+@keyframes hot {
+
+    0% {
+        color: rgb(255, 243, 13);
     }
+
+    50% {
+        color: rgb(7, 255, 114);
+    }
+
+    75% {
+        color: rgb(7, 152, 255);
+    }
+
+    100% {
+        color: rgb(255, 7, 90);
+    }
+}
+
+.home {
+    width: 350px;
+}
+
+.market {
+    width: 260px;
+}
+
+.smart {
+    width: 250px;
+}
+
+.model {
+    width: 261px;
 }
