@@ -1,0 +1,81 @@
+.custom-sh {
+    position: absolute;
+    top: -155px;
+    right: -39px;
+    padding: 15px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 20px;
+}
+
+@media (max-width:1197px) {
+    .custom-sh {
+        position: absolute;
+        top: -104px;
+        right: -12px;
+        font-size: 11px;
+        padding: 10px;
+    }
+
+    .custom-pc {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:989px) {
+    .custom-sh {
+        position: absolute;
+        top: -59px;
+        right: -18px;
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .custom-pc {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:767px) {
+    .custom-sh {
+        position: absolute;
+        top: -127px;
+        right: -10px;
+        font-size: 11px;
+        padding: 13px;
+    }
+
+    .custom-pc {
+        font-size: 12px;
+    }
+}
+
+.bg-danger-subtle {
+    background-color: #E6C4DF;
+}
+
+.bg-orange {
+    background-color: #ED6202;
+}
+
+.custom-col-lg-3 {
+    flex: 0 0 18% !important;
+    width: 18% !important;
+}
+
+@media screen and (max-width:991px) {
+    .custom-col-lg-3 {
+        flex: 0 0 43% !important;
+        width: 43% !important;
+        margin-top: 2rem !important;
+    }
+}
+
+
+
+
+
+.wrapper-ads {
+    height: fit-content;
+}

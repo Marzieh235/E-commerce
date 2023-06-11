@@ -1,4 +1,5 @@
 @import url('../css/_top-nav.css');
+@import url('./_slider.css');
 
 *,
 body {
@@ -31,5 +32,16 @@ p {
 @media (max-width:767px) {
     .mt-csm-3 {
         margin-top: 2rem !important;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+        max-width: 1340px !important;
     }
 }
