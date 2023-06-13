@@ -1,0 +1,26 @@
+
+
+.shipping-wrapper img {
+    width: 36px;
+    height: 28px;
+}
+
+.shipping-wrapper p {
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.shipping-wrapper div {
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+
+.wrapper-ads {
+    height: fit-content;
+}
