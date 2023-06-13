@@ -1,5 +1,3 @@
-
-
 .shipping-wrapper img {
     width: 36px;
     height: 28px;
@@ -12,7 +10,7 @@
 
 .shipping-wrapper div {
     padding: 10px;
-    
+
 }
 
 
@@ -21,6 +19,14 @@
 
 
 
-.wrapper-ads {
-    height: fit-content;
+.wrapper-ads img {
+    width: 100%;
+    height: 78% !important;
 }
+
+/* @media screen and (min-width: 768px) {
+    .wrapper-ads {
+        flex: 0 0 39%;
+        width: 50%;
+    }
+} */
