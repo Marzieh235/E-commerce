@@ -1,6 +1,7 @@
 @import url('../css/_top-nav.css');
 @import url('./_slider.css');
 @import url('./_shipping.css');
+@import url('./_category.css');
 *,
 body {
     font-family: Vazirmatn, sans-serif;

@@ -1,0 +1,14 @@
+.cat-sec p {
+    margin-right: 15px !important;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.cat-hover {
+    transition: 0.5s;
+}
+
+.cat-hover:hover {
+    box-shadow: 0 0 7px 1px #ccc;
+    z-index: 1;
+}
