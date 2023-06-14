@@ -2,6 +2,12 @@
 @import url('./_slider.css');
 @import url('./_shipping.css');
 @import url('./_category.css');
+@import url('./_special-offers.css');
+
+
+
+
+
 *,
 body {
     font-family: Vazirmatn, sans-serif;
