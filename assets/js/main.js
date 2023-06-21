@@ -69,25 +69,26 @@ var x = setInterval(function () {
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     rtl:true,
-    items: 4,
-    loop: true,
-    margin: 0,
+    items:5,
+    loop:true,
+    margin:10,
     nav:true,
     dots:false,
-    center: true,
-    autoplay: true,
-    slideBy:3,
-    autoplayTimeout: 5000,
+    center:true,
+    autoplay:true,
+    slideBy:1,
+    autoplayTimeout:3000,
     autoplayHoverPause: true,
     responsiveClass:true,
     responsive:{
         0:{
             items:1,
-            nav:true
+            nav:true,
+            center:true,
         },
         600:{
             items:2,
-            nav:false
+            nav:false,
         },
         1000:{
             items:3,
@@ -102,6 +103,8 @@ $(document).ready(function () {
     }
   });
 });
+
+
 
 
 $(".tt").tooltip("show");
