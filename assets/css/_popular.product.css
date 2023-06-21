@@ -66,3 +66,15 @@
     margin: 0 33px !important;
 }
 
+.banner .owl-item {
+    width: 200px !important;
+}
+
+.banner .custom-img-card {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.banner .owl-carousel .owl-nav {
+    top: 44px !important;
+}

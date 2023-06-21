@@ -105,6 +105,44 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+  $(".owl-carousel").owlCarousel({
+    rtl:true,
+    items:5,
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    center:true,
+    autoplay:true,
+    slideBy:3,
+    autoplayTimeout:3000,
+    autoplayHoverPause: true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true,
+            center:true,
+        },
+        600:{
+            items:2,
+            nav:false,
+        },
+        1000:{
+            items:3,
+            nav:true,
+            center: false,
+        },
+        1200:{
+          items:4,
+          nav:true,
+        
+      }
+    }
+  });
+});
+
 
 
 $(".tt").tooltip("show");
