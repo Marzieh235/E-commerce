@@ -1,0 +1,97 @@
+.news-letter .row {
+    margin-top: -77px;
+    box-shadow: 0px 0px 5px 1px #efebeb;
+    ;
+}
+
+.news-letter-s1 h6 {
+    font-size: 16px !important;
+}
+
+.news-letter-s1 p {
+    font-size: 15px;
+    margin-top: 15px !important;
+}
+
+.news-letter-s2 p {
+    font-size: 15px;
+    line-height: 35px !important;
+}
+
+.news-letter-s3 .form-control:focus,
+.news-letter-s3 .btn:focus {
+    box-shadow: none !important;
+}
+
+.news-letter-s3 .btn:focus {
+    background-color: #0ab364 !important;
+}
+
+.main-section-footer h5 {
+    font-size: 16px !important;
+    border-bottom: 3px solid #DC3545;
+    padding-bottom: 10px !important;
+    display: inline-flex;
+}
+
+.footer-nav-custom a {
+    font-size: 15px;
+    color: #5C636A;
+}
+
+.footer-nav-custom a i {
+    font-size: 10px;
+}
+
+.footer-nav-custom a {
+    color: black !important;
+    transition: 0.3s ease;
+}
+
+.footer-nav-custom a:hover {
+    margin-right: 5px !important;
+    color: #3078cf !important;
+    cursor: pointer;
+}
+
+.support-rules div i {
+    color: #5178CF;
+    font-size: 32px;
+}
+
+.support-rules div p,
+.support-rules div a {
+    font-size: 14px;
+    color: #212530 !important;
+}
+
+.support-rules div p span {
+    color: #DC3545 !important;
+}
+
+.social-icon p {
+    font-size: 14px;
+}
+
+.social-icon nav a i {
+    color: #5C636A;
+    transition: 0.5s;
+}
+
+.social-icon nav a .fa-telegram:hover,
+.social-icon nav a .fa-twitter:hover,
+.social-icon nav a .fa-facebook:hover {
+    color: rgb(60, 60, 255);
+}
+
+.social-icon nav a .fa-instagram:hover {
+    color: #F71438;
+}
+
+.social-icon nav a .fa-whatsapp:hover {
+    color: #009F12;
+}
+
+.social-icon .nav-link {
+    padding: 0 14px !important;
+}
