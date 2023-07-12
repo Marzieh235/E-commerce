@@ -1,0 +1,22 @@
+.login-icon {
+    font-size: 15px !important;
+}
+
+.form-custom label {
+    font-size: 14px !important;
+}
+
+.form-custom input[type=email],
+.form-custom input[type=password] {
+    border: none;
+    border-bottom: 2px solid #efefef;
+    border-radius: 0ّ !important;
+}
+
+#login-form h1 {
+    font-size: 18px !important;
+}
+
+.modal-footer-custom a {
+    font-size: 14px !important;
+}
