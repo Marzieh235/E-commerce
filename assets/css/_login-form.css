@@ -2,6 +2,10 @@
     font-size: 15px !important;
 }
 
+.login-icon span {
+    vertical-align: 3px;
+}
+
 .form-custom label {
     font-size: 14px !important;
 }
@@ -20,3 +24,4 @@
 .modal-footer-custom a {
     font-size: 14px !important;
 }
+
