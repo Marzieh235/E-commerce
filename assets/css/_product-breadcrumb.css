@@ -1,0 +1,53 @@
+.img-fluid-custom {
+    max-width: 90%;
+    height: auto;
+}
+
+.custom-breadcrumb li {
+    font-size: 15px;
+}
+
+.product-page-rate i {
+    color: gold;
+    font-size: 15px;
+}
+
+.product-page-rate span {
+    color: rgb(121, 119, 119);
+    font-size: 15px;
+}
+
+.product-page-price {
+    font-size: 17px;
+}
+
+.product-page-price s {
+    color: red;
+    font-size: 16px;
+}
+
+.product-page-title {
+    font-size: 1.5rem !important;
+}
+
+.product-page-title span a i {
+    color: rgb(121, 119, 119);
+    font-size: 16px;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+
+.product-page-title span a .fa-heart:hover {
+    color: red;
+}
+.product-page-title span a .fa-share-nodes:hover {
+    color: rgb(97, 132, 255);
+}
+.product-page-title span a .fa-bell:hover {
+    color: rgb(255, 191, 0);
+}
+
+.describe {
+    line-height: 24px;
+    font-size: 15px;
+}
