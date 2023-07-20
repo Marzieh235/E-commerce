@@ -40,9 +40,11 @@
 .product-page-title span a .fa-heart:hover {
     color: red;
 }
+
 .product-page-title span a .fa-share-nodes:hover {
     color: rgb(97, 132, 255);
 }
+
 .product-page-title span a .fa-bell:hover {
     color: rgb(255, 191, 0);
 }
@@ -50,4 +52,29 @@
 .describe {
     line-height: 24px;
     font-size: 15px;
+}
+
+.details {
+    font-size: 16px;
+}
+
+.nav-details p {
+    color: rgb(107, 107, 107);
+    font-size: 14px;
+}
+
+.nav-details p i {
+    padding: 0 0 8px 5px;
+    vertical-align: 1px;
+    font-size: 6px;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: rgb(107, 107, 107);
+}
+
+.brand-cat {
+    color: rgb(107, 107, 107);
+    font-size: 14px;
 }
